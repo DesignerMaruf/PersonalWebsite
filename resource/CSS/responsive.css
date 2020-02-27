@@ -1,0 +1,62 @@
+@media screen and (max-width:1040px) {
+    h2 {
+        font-size: 300%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    h2 {
+        font-size: 250%;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .about-me {
+        width: 100%;
+        margin: auto;
+    }
+
+    nav ul li a:link {
+        margin: 0 15px;
+    }
+
+    .about {
+        max-width: 100%;
+    }
+
+    .grid-container {
+        grid-column-gap: 10px;
+    }
+
+    .subscribe p {
+        width: 100%;
+    }
+
+    .photography p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .grid-container {
+        grid-template-columns: auto auto;
+        grid-row-gap: 15px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    nav ul li a:link {
+        margin: 0 100px;
+
+    }
+
+    .subscribe input {
+        width: 220px;
+    }
+}
